@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: reactive
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/webfluxr2dbcdb
+    username: admin
+    password: admin
+
+logging:
+  level:
+    org.springframework.r2dbc.core: DEBUG
